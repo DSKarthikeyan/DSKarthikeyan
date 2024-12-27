@@ -36,7 +36,7 @@ My expertise spans optimizing app performance, implementing CI/CD pipelines, and
 
 * 🤖 Meta Ceritified Android Developer [@Cerification]()
 
-* 🔆 Lead Android Engineer [@Bosch](https://www.bosch.com/)
+* 🔆 Lead Software Android Engineer [@Bosch](https://www.bosch.com/)
 
 <!-- * 📳 Former Android Lead [@WorkIndia](https://workindia.i/n/)  -->
 
