@@ -308,3 +308,39 @@ window.onload = function() {
   }
   document.body.appendChild(css);
 };
+
+function calculateExperience(startMonth, startYear) {
+  const currentDate = new Date();
+  const currentYear = currentDate.getFullYear();
+  const currentMonth = currentDate.getMonth() + 1; // JavaScript months are 0-based
+
+  let years = currentYear - startYear;
+  let months = currentMonth - startMonth;
+
+  if (months < 0) {
+    years--;
+    months += 12;
+  }
+
+  return months === 0 ? `${years} years` : `${years} years ${months} months`;
+}
+
+// Set experience dynamically in the "About Me" section
+document.addEventListener("DOMContentLoaded", function () {
+  const experienceElement = document.getElementById("experience");
+  if (experienceElement) {
+    experienceElement.textContent = calculateExperience(6, 2017); // June 2017
+  }
+});
+
+// Update the text dynamically
+document.addEventListener("DOMContentLoaded", function () {
+  const experienceElement = document.querySelector(".title.typewrite");
+  if (experienceElement) {
+    experienceElement.setAttribute(
+      "data-type",
+      `["Lead Software Engineer","${calculateExperience(6, 2017)}", "Android, iOS, Swift, Java, Kotlin"]`
+    );
+    experienceElement.textContent = `Lead Software Engineer, ${experienceText}`;
+  }
+});
