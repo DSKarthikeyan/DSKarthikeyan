@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 ### About me
 I'm a developer who turns code into creations 💻, a believer who finds inspiration in every challenge 😃, and a dreamer who envisions the possibilities of tomorrow 💭.
 
-I am a seasoned Lead Software Engineer with over 7 years of experience specializing in Android and iOS development. Passionate about turning complex problems into elegant, user-friendly solutions, I excel in leading cross-functional teams and delivering high-performance, scalable applications.
+I am a seasoned Lead Software Engineer with over 7.9 years of experience specializing in Android and iOS development. Passionate about turning complex problems into elegant, user-friendly solutions, I excel in leading cross-functional teams and delivering high-performance, scalable applications.
 
 My expertise spans optimizing app performance, implementing CI/CD pipelines, and advocating clean coding practices. I have a proven track record of collaborating with major companies to create impactful software and enhancing user experiences through innovative technology. Committed to continuous improvement and mentoring, I thrive on transforming ideas into intuitive, high-quality products.I'm a developer who turns code into creations 💻, a believer who finds inspiration in every challenge 😃, and a dreamer who envisions the possibilities of tomorrow 💭.
 
