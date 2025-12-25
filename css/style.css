@@ -1071,6 +1071,35 @@ main {
   line-height: 1.6;
 }
 
+.auto-counter {
+  list-style: none;
+  counter-reset: project;
+  padding-left: 0;
+}
+
+.auto-counter li {
+  counter-increment: project;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 30px;
+}
+
+.auto-counter li::before {
+  content: counter(project) ".";
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+/* Skip this item from numbering */
+.auto-counter li.skip-number {
+  counter-increment: none;
+}
+
+.auto-counter li.skip-number::before {
+  content: "";
+}
+
 
 /**
  * skills 
