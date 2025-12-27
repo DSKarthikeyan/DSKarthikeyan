@@ -203,6 +203,10 @@
 
 .paragraph-desc{
 /* letter-spacing: 1px; */
+ color: var(--white-2);
+}
+.unordered-item{
+	color: var(--white-2);
 }
 
 /*-----------------------------------*\
