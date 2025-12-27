@@ -1077,6 +1077,7 @@ main {
   margin-bottom: 10px;
   position: relative;
   padding-left: 30px;
+  color: var(--white-2);
 }
 
 .auto-counter li::before {
