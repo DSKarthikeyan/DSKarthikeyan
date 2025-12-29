@@ -339,7 +339,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (experienceElement) {
     experienceElement.setAttribute(
       "data-type",
-      `["Lead Software Engineer @ Bosch","${calculateExperience(6, 2017)}", "Android, iOS & Kotlin Multiplatform Expert, Java, Kotlin, Swift"]`
+      `["Lead Software Engineer @ Bosch","${calculateExperience(6, 2017)}", "Android, iOS & Kotlin Multiplatform Expert", "Java, Kotlin, Swift"]`
     );
     experienceElement.textContent = `Lead Software Engineer, ${experienceText}`;
   }
