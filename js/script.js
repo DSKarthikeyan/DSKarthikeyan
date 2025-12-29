@@ -325,7 +325,7 @@ function calculateExperience(startMonth, startYear) {
   return months === 0 ? `${years} years` : `${years} years ${months} months`;
 }
 
-// Set experience dynamically in the "About Me" section
+// To Set experience dynamically in the "About Me" section
 document.addEventListener("DOMContentLoaded", function () {
   const experienceElement = document.getElementById("experience");
   if (experienceElement) {
@@ -339,7 +339,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (experienceElement) {
     experienceElement.setAttribute(
       "data-type",
-      `["Lead Software Engineer","${calculateExperience(6, 2017)}", "Android, iOS, Swift, Java, Kotlin"]`
+      `["Lead Software Engineer @ Bosch","${calculateExperience(6, 2017)}", "Android, iOS & Kotlin Multiplatform Expert, Java, Kotlin, Swift"]`
     );
     experienceElement.textContent = `Lead Software Engineer, ${experienceText}`;
   }
